@@ -1,21 +1,33 @@
 {
-    "name": "cvuorinen/phpdoc-markdown-public",
-    "description": "phpDocumentor template that generates Markdown documentation of the public API",
-    "keywords" : [ "PHPDoc", "phpDocumentor", "Documentation", "Markdown" ],
-    "homepage" : "https://github.com/cvuorinen/phpdoc-markdown-public",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Carl Vuorinen",
-            "email": "carl.vuorinen@gmail.com"
-        }
-    ],
-    "require": {
-        "phpdocumentor/phpdocumentor": "~2.8"
+  "name": "spaceonfire/phpdoc-markdown-public",
+  "description": "phpDocumentor template that generates Markdown documentation of the public API",
+  "keywords": [
+    "PHPDoc",
+    "phpDocumentor",
+    "Documentation",
+    "Markdown"
+  ],
+  "homepage": "https://github.com/spaceonfire/phpdoc-markdown-public",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carl Vuorinen",
+      "email": "carl.vuorinen@gmail.com"
     },
-    "autoload": {
-        "psr-4": {
-            "Cvuorinen\\PhpdocMarkdownPublic\\": "src"
-        }
+    {
+      "name": "Constantine Karnaukhov",
+      "email": "genteelknight@gmail.com"
     }
+  ],
+  "require": {
+    "phpdocumentor/phpdocumentor": "~2.8"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "spaceonfire\\PhpdocMarkdownPublic\\": "src"
+    }
+  }
 }

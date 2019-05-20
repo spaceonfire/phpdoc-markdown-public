@@ -1,6 +1,6 @@
 <?php
 
-namespace Cvuorinen\PhpdocMarkdownPublic\Extension;
+namespace spaceonfire\PhpdocMarkdownPublic\Extension;
 
 use phpDocumentor\Descriptor\ClassDescriptor;
 use phpDocumentor\Descriptor\MethodDescriptor;

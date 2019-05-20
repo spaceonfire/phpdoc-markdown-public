@@ -6,24 +6,24 @@ The main use-case for this template is to generate simple and nice looking usage
 
 For example, a small library can document it's public API in DocBlock comments, use this template to generate the Markdown documentation and then commit it to GitHub with the library to easily create a nice looking documentation for other developers to see.
 
-Example of documentation generated with this template: https://github.com/cvuorinen/raspicam-php/tree/master/docs
+Example of documentation generated with this template: https://github.com/spaceonfire/bitrix-tools/tree/master/docs
 
 ## Installation
 
 Install with composer:
 
 ```bash
-composer require cvuorinen/phpdoc-markdown-public
+composer require spaceonfire/phpdoc-markdown-public
 ```
 
 ## Usage
 
-Run phpDocumentor and set template as `vendor/cvuorinen/phpdoc-markdown-public/data/templates/markdown-public`.
+Run phpDocumentor and set template as `vendor/spaceonfire/phpdoc-markdown-public/data/templates/markdown-public`.
 
 **Example using command-line arguments:**
 
 ```bash
-./vendor/bin/phpdoc --directory=src/ --target=docs/ --template="vendor/cvuorinen/phpdoc-markdown-public/data/templates/markdown-public" --title="My Project Documentation"
+./vendor/bin/phpdoc --directory=src/ --target=docs/ --template="vendor/spaceonfire/phpdoc-markdown-public/data/templates/markdown-public" --title="My Project Documentation"
 ```
 
 More information about the available arguments can be found at [running phpDocumentor](http://www.phpdoc.org/docs/latest/guides/running-phpdocumentor.html).
@@ -43,7 +43,7 @@ Add a file called `phpdoc.xml` with the following content to the root of your pr
         <target>docs</target>
     </transformer>
     <transformations>
-        <template name="vendor/cvuorinen/phpdoc-markdown-public/data/templates/markdown-public" />
+        <template name="vendor/spaceonfire/phpdoc-markdown-public/data/templates/markdown-public" />
     </transformations>
     <files>
         <directory>src</directory>

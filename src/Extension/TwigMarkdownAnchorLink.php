@@ -1,6 +1,6 @@
 <?php
 
-namespace Cvuorinen\PhpdocMarkdownPublic\Extension;
+namespace spaceonfire\PhpdocMarkdownPublic\Extension;
 
 use Twig_Extension;
 use Twig_SimpleFunction;
